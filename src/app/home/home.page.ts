@@ -45,8 +45,8 @@ export class HomePage {
       iconAnchor: [12, 41],
     })
 
-    const marker = L.marker([-7.774621408831542, 110.37449133772941], { icon: markerIcon }).addTo(this.map)
-      .bindPopup('Sekolah Vokasi UGM')
+    const marker = L.marker([-7.770133167766248, 110.37804916089267], { icon: markerIcon }).addTo(this.map)
+      .bindPopup('Grha Saba Pramana UGM')
       .openPopup();
 
       
